@@ -54,7 +54,7 @@ public class Actividad26 extends JFrame{
     
     public Actividad26(){
         this.setSize(dmVentana);
-        this.setTitle("Ventana Principal");
+        this.setTitle("Mi Perfil");
         lblTitulo.setFont(new Font("Calibri",Font.BOLD,32));
         lblTitulo.setForeground(COLOR_TEXTO);
         lblTitulo.setOpaque(true);
