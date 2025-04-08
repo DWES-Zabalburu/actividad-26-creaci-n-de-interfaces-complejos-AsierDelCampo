@@ -59,11 +59,15 @@ public class Actividad26 extends JFrame{
         lblTitulo.setForeground(COLOR_TEXTO);
         lblTitulo.setOpaque(true);
         lblTitulo.setBackground(COLOR_FONDO);
-        lblTitulo.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
+        lblTitulo.setBorder(BorderFactory.createEmptyBorder(20, 10, 10, 10));
         this.add(lblTitulo, BorderLayout.NORTH);
         
         
-        
+        txtNombre.setBorder(BorderFactory.createMatteBorder(0,0,3,0,COLOR_FONDO));
+        txtCorreo.setBorder(BorderFactory.createMatteBorder(0,0,3,0,COLOR_FONDO));
+        txtTelefono.setBorder(BorderFactory.createMatteBorder(0,0,3,0,COLOR_FONDO));
+        txtDireccion.setBorder(BorderFactory.createMatteBorder(0,0,3,0,COLOR_FONDO));
+        txtWeb.setBorder(BorderFactory.createMatteBorder(0,0,3,0,COLOR_FONDO));
         pnlDatos.add(lblNombre);
         pnlDatos.add(txtNombre);
         pnlDatos.add(lblCorreo);
@@ -75,8 +79,7 @@ public class Actividad26 extends JFrame{
         pnlDatos.add(lblWeb);
         pnlDatos.add(txtWeb);
         pnlDatos.setBorder(BorderFactory.createEmptyBorder(10, 30, 10, 30));
-     
-        
+      
         for (int i = 0; i < pnlDatos.getComponentCount(); i++) {
             Component cmp = pnlDatos.getComponent(i);
             //if (i % 2 == 0){
